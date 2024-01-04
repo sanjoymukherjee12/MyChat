@@ -1,0 +1,354 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria Hernandez",
+      "onlineStatus": "away",
+      "media": [
+        "https://modernize-react.adminmart.com/assets/blog-img1-d097fa76.jpg"
+      ],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-adobe-6be87d13.svg",
+          "name": "Service-task.pdf",
+          "size": "2MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-javascript-2be4d0ed.svg",
+          "name": "Work-project.zip",
+          "size": "10MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-2-8a001bcb.jpg",
+      "time": "5 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "James Johnson",
+      "onlineStatus": "online",
+      "media": [
+        "https://modernize-react.adminmart.com/assets/blog-img1-d097fa76.jpg"
+      ],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-adobe-6be87d13.svg",
+          "name": "Service-task.pdf",
+          "size": "2MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-chrome-711faa0b.svg",
+          "name": "homepage-design.fig",
+          "size": "12MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-figma-59ec6db4.svg",
+          "name": "about-us.html",
+          "size": "1KB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-javascript-2be4d0ed.svg",
+          "name": "Work-project.zip",
+          "size": "10MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-zip-folder-b902ef0c.svg",
+          "name": "custom.js",
+          "size": "32MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-1-6d05e3ce.jpg",
+      "time": "6 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "David Smith",
+      "onlineStatus": "busy",
+      "media": [],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-adobe-6be87d13.svg",
+          "name": "Service-task.pdf",
+          "size": "2MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-chrome-711faa0b.svg",
+          "name": "homepage-design.fig",
+          "size": "12MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-3-94da4ac7.jpg",
+      "time": "6 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Maria Rodriguez",
+      "onlineStatus": "offline",
+      "media": [
+        "https://modernize-react.adminmart.com/assets/blog-img1-d097fa76.jpg"
+      ],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-figma-59ec6db4.svg",
+          "name": "about-us.html",
+          "size": "1KB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-javascript-2be4d0ed.svg",
+          "name": "Work-project.zip",
+          "size": "10MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-zip-folder-b902ef0c.svg",
+          "name": "custom.js",
+          "size": "32MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-4-a9b2728d.jpg",
+      "time": "7 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Robert Smith",
+      "onlineStatus": "offline",
+      "media": [],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-adobe-6be87d13.svg",
+          "name": "Service-task.pdf",
+          "size": "2MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-chrome-711faa0b.svg",
+          "name": "homepage-design.fig",
+          "size": "12MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-zip-folder-b902ef0c.svg",
+          "name": "custom.js",
+          "size": "32MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-4-a9b2728d.jpg",
+      "time": "10 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Joseph Sarah",
+      "onlineStatus": "busy",
+      "media": [
+        "https://modernize-react.adminmart.com/assets/blog-img1-d097fa76.jpg"
+      ],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-chrome-711faa0b.svg",
+          "name": "homepage-design.fig",
+          "size": "12MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-figma-59ec6db4.svg",
+          "name": "about-us.html",
+          "size": "1KB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-zip-folder-b902ef0c.svg",
+          "name": "custom.js",
+          "size": "32MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-1-6d05e3ce.jpg",
+      "time": "11 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "James Johnson",
+      "onlineStatus": "online",
+      "media": [
+        "https://modernize-react.adminmart.com/assets/blog-img1-d097fa76.jpg"
+      ],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-adobe-6be87d13.svg",
+          "name": "Service-task.pdf",
+          "size": "2MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-chrome-711faa0b.svg",
+          "name": "homepage-design.fig",
+          "size": "12MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-figma-59ec6db4.svg",
+          "name": "about-us.html",
+          "size": "1KB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-javascript-2be4d0ed.svg",
+          "name": "Work-project.zip",
+          "size": "10MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-zip-folder-b902ef0c.svg",
+          "name": "custom.js",
+          "size": "32MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-1-6d05e3ce.jpg",
+      "time": "12 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Thomas Smith",
+      "onlineStatus": "busy",
+      "media": [
+        "https://modernize-react.adminmart.com/assets/blog-img1-d097fa76.jpg"
+      ],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-javascript-2be4d0ed.svg",
+          "name": "Work-project.zip",
+          "size": "10MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-zip-folder-b902ef0c.svg",
+          "name": "custom.js",
+          "size": "32MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-2-8a001bcb.jpg",
+      "time": "13 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "James Johnson",
+      "onlineStatus": "online",
+      "media": [
+        "https://modernize-react.adminmart.com/assets/blog-img1-d097fa76.jpg"
+      ],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-adobe-6be87d13.svg",
+          "name": "Service-task.pdf",
+          "size": "2MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-chrome-711faa0b.svg",
+          "name": "homepage-design.fig",
+          "size": "12MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-figma-59ec6db4.svg",
+          "name": "about-us.html",
+          "size": "1KB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-javascript-2be4d0ed.svg",
+          "name": "Work-project.zip",
+          "size": "10MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-zip-folder-b902ef0c.svg",
+          "name": "custom.js",
+          "size": "32MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-1-6d05e3ce.jpg",
+      "time": "14 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Samuel Eliza",
+      "onlineStatus": "online",
+      "media": [
+        "https://modernize-react.adminmart.com/assets/blog-img1-d097fa76.jpg"
+      ],
+      "attachments": [
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-figma-59ec6db4.svg",
+          "name": "about-us.html",
+          "size": "1KB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-javascript-2be4d0ed.svg",
+          "name": "Work-project.zip",
+          "size": "10MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-zip-folder-b902ef0c.svg",
+          "name": "custom.js",
+          "size": "32MB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-figma-59ec6db4.svg",
+          "name": "about-us.html",
+          "size": "1KB"
+        },
+        {
+          "thumbnail": "https://modernize-react.adminmart.com/assets/icon-javascript-2be4d0ed.svg",
+          "name": "Work-project.zip",
+          "size": "10MB"
+        }
+      ],
+      "profileImage": "https://modernize-react.adminmart.com/assets/user-5-77f60b86.jpg",
+      "time": "15 hours",
+      "chats": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "ipsum amet consectetur adipisicing elit",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing",
+        "amet consectetur adipisicing elit.",
+        "sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit sit amet consectetur adipisicing"
+      ]
+    }
+  ],
+  "total": 10
+}
