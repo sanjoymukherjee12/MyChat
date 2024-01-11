@@ -1,242 +1,230 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    border: 1px solid rgb(227, 227, 227);
-    /* width: 70%; */
-    border-radius: 10px;
-    display: flex;
+.container {
+  border: 1px solid rgb(227, 227, 227);
+  /* width: 70%; */
+  border-radius: 10px;
+  display: flex;
 
-    box-shadow: 3px 1px 8px -1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 3px 1px 8px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 1px 8px -1px rgba(0,0,0,0.75);
+  box-shadow: 3px 1px 8px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 1px 8px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 1px 8px -1px rgba(0, 0, 0, 0.75);
 }
 
-.profiles{
-    width: 310px;
-    overflow: hidden;
+.profiles {
+  width: 310px;
+  overflow: hidden;
 }
 
-.myProfile{
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
+.myProfile {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
 }
 
-
-.myProfile_img img{
-    height: 50px;
-    border-radius: 25px;
+.myProfile_img img {
+  height: 50px;
+  border-radius: 25px;
 }
-.green{
-    height: 10px;
-    width: 10px;
-    background-color: rgb(5, 225, 5);
-    border-radius: 25px;
-    position: absolute;
-    bottom: 35px;
-    left: 58px;
-}
-
-.myProfile_name{
-    display: flex;
-    flex-direction: column;
-    padding: 15px 0;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-}
-.myProfile_name p{
-    margin-top: -4px;
+.green {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(5, 225, 5);
+  border-radius: 25px;
+  position: absolute;
+  bottom: 35px;
+  left: 58px;
 }
 
-.chat{
-    border-left: 1px solid rgb(227, 227, 227);
+.myProfile_name {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.myProfile_name p {
+  margin-top: -4px;
 }
 
-.timee{
+.chat {
+  border-left: 1px solid rgb(227, 227, 227);
+}
+
+.timee {
   font-size: 12px;
 }
 
-
-.search{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.search input{
-    width: 78%;
-    padding: 10px 10px;
-    letter-spacing: 1px;
-    border: 1px solid rgb(227, 227, 227);
-    outline: none;
-    border-radius: 8px;
+.search input {
+  width: 78%;
+  padding: 10px 10px;
+  letter-spacing: 1px;
+  border: 1px solid rgb(227, 227, 227);
+  outline: none;
+  border-radius: 8px;
 }
-.sea{
-    position: absolute;
-    right: 40px;
+.sea {
+  position: absolute;
+  right: 40px;
 }
 
-
-
-
-.sort{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding: 8px 20px;
-    transition: 0.8s;
+.sort {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 8px 20px;
+  transition: 0.8s;
 }
-.dr{
-    font-size: 26px;
+.dr {
+  font-size: 26px;
 }
 
 .dropbtn {
-    /* background-color: #3498DB; */
-    color: black;
-    padding: 5px 8px;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
-    border-radius: 10px;
-    display: flex;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #f3f2f2;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 150px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 5px;
-  }
-  
-  .dropdown-content p {
-    color: black;
-    padding: 5px 16px;
-    /* text-decoration: none; */
-    display: block;
-    transition: 0.5s;
-    cursor: pointer;
-    font-size: 15px;
-  }
-  
-  .dropdown p:hover {background-color: #f3f2f2;}
-  
-  .show {display: block;}
-
-
-
-
-  .users{
-    padding: 10px 0px;
-    height: 400px;
-	/* background: #F5F5F5; */
-	overflow-y: scroll;
-	margin-bottom: 25px;
-  }
-
-
-.users::-webkit-scrollbar
-{
-	width: 8px;
-	background-color: #ffffffd1;
+  /* background-color: #3498DB; */
+  color: black;
+  padding: 5px 8px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 10px;
+  display: flex;
 }
 
-.users::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(123, 99, 99, 0.3);
-	background-color: #ffffff;
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #f3f2f2;
 }
 
-  .user img{
-    height: 40px;
-    border-radius: 25px;
-  }
-  .user{
-    padding: 12px 15px;
-    position: relative;
-    display: flex;
-    gap: 13px;
-    width: 90%;
-    margin-bottom: 5px;
-    transition: 0.5s;
-    cursor: pointer;
-    
-  }
-  .user:hover{
-    background-color:  #f3f8fd;
-  }
-  .user span{
-    margin-left: 30px;
-  }
-  .name{
-    margin-top: -2px;
-  }
-  .ll{
-    margin-top: -5px;
-    font-size: 13px;
-  }
-  .stat{
-    height: 10px;
-    width: 10px;
-    border-radius: 25px;
-    position: absolute;
-    top: 40px;
-    left: 45px;
-  }
-
-
-
-.user.active{
-    background-color: aliceblue;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 150px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
 
+.dropdown-content p {
+  color: black;
+  padding: 5px 16px;
+  /* text-decoration: none; */
+  display: block;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 15px;
+}
 
-.busy{
+.dropdown p:hover {
+  background-color: #f3f2f2;
+}
+
+.show {
+  display: block;
+}
+
+.users {
+  padding: 10px 0px;
+  height: 400px;
+  /* background: #F5F5F5; */
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+
+.users::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ffffffd1;
+}
+
+.users::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(123, 99, 99, 0.3);
+  background-color: #ffffff;
+}
+
+.user img {
+  height: 40px;
+  border-radius: 25px;
+}
+.user {
+  padding: 12px 15px;
+  position: relative;
+  display: flex;
+  gap: 13px;
+  width: 90%;
+  margin-bottom: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.user:hover {
+  background-color: #f3f8fd;
+}
+.user span {
+  margin-left: 30px;
+}
+.name {
+  margin-top: -2px;
+}
+.ll {
+  margin-top: -5px;
+  font-size: 13px;
+}
+.stat {
+  height: 10px;
+  width: 10px;
+  border-radius: 25px;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+}
+
+.user.active {
+  background-color: aliceblue;
+}
+
+.busy {
   background-color: rgb(243, 41, 111);
 }
 
-.away{
+.away {
   background-color: orangered;
 }
 
-.offline{
+.offline {
   background-color: rgb(73, 112, 229);
 }
 
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   padding: 20px;
 }
 
-@media(max-width:1200px){
-  .container{
+@media (max-width: 1200px) {
+  .container {
     width: 100%;
     position: relative;
   }
 
-  .profiles{
+  .profiles {
     display: flex;
     flex-direction: column;
     width: 310px;
@@ -246,51 +234,49 @@
     z-index: 2;
     height: 570px;
     visibility: hidden;
+  }
+
+  .profiles.visible {
+    visibility: visible !important;
+  }
 }
 
-.profiles.visible {
-  visibility: visible !important;
-}
-
-
-}
-
-@media(min-width:600px){
-  .container{
+@media (min-width: 600px) {
+  .container {
     margin: 0 80%;
   }
-} 
+}
 
-@media(max-width:600px){
-  .container{
+@media (max-width: 600px) {
+  .container {
     width: 60%;
   }
-  .name .stata{
+  .name .stata {
     font-size: 8px;
     margin-top: 1px;
   }
-  .others{
+  .others {
     display: flex;
     gap: 5px;
     margin: -30px;
     font-size: 10px;
   }
-  .others button{
+  .others button {
     margin: -5px 0 -5px -15px;
   }
-} 
+}
 
-@media(max-width:500px){
-  .container{
+@media (max-width: 500px) {
+  .container {
     width: 80%;
   }
 }
 
-
-
-
-
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }

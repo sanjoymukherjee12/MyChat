@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 import { IoCallOutline } from "react-icons/io5";
 import { HiDotsVertical } from "react-icons/hi";
 import { BsSend } from "react-icons/bs";
@@ -9,13 +9,14 @@ import "./UserChat.css";
 import { BsEmojiSmile } from "react-icons/bs";
 import { MyContext } from "./Home";
 import { FaBars } from "react-icons/fa";
+import myImg from "../../images/my.jpg";
 
 const UserChat = ({ users, handleNav }) => {
   const data = useContext(MyContext);
   const [us, setUs] = useState(data[0] || []);
   const [oo, setOO] = useState(us.chats);
+  const [me, setMe] = useState(us.my);
   const [input, setInput] = useState("");
-  const [add, setAdd] = useState([]);
   const [toggle, setToggle] = useState(false);
 
   const {
@@ -27,16 +28,19 @@ const UserChat = ({ users, handleNav }) => {
     profileImage,
     id,
     chats: combinedChats,
-  } = users || { chats: oo };
+    my: my,
+  } = users || { chats: oo, my: me };
 
   function openNav() {
     document.getElementById("mySidenav").style.width = "300px";
-    document.querySelector(".attach").style.marginRight = "300px";
+    document.querySelector(".attach").style.paddingRight = "300px";
+    document.querySelector(".chatBox").style.width = "65%";
   }
 
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.querySelector(".attach").style.marginRight = "0";
+    document.querySelector(".chatBox").style.width = "94%";
   }
 
   const handleDot = () => {
@@ -51,7 +55,8 @@ const UserChat = ({ users, handleNav }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(input);
+
+    my.push(input);
     setInput("");
   };
 
@@ -78,8 +83,8 @@ const UserChat = ({ users, handleNav }) => {
           <button>
             <IoVideocamOutline />
           </button>
-          <button>
-            <HiDotsVertical onClick={handleDot} />
+          <button onClick={handleDot}>
+            <HiDotsVertical />
           </button>
         </div>
       </div>
@@ -95,6 +100,20 @@ const UserChat = ({ users, handleNav }) => {
                     <span>{name || us.name},</span>{" "}
                     <span>{time || us.time}</span>
                     <p>{data}</p>
+                  </div>
+                </div>
+              );
+            })}
+          {my &&
+            my.map((chat, ind) => {
+              return (
+                <div className="line1" key={ind}>
+                  <div className="op">
+                    <span>ago</span>
+                    <div className="nam1">
+                      <p>{chat}</p>
+                      <img src={myImg} alt="" />
+                    </div>
                   </div>
                 </div>
               );
@@ -130,7 +149,7 @@ const UserChat = ({ users, handleNav }) => {
       <form onSubmit={handleSubmit}>
         <div className="chatting">
           <div className="emoji">
-            <button onClick={() => console.log("emo")}>
+            <button>
               <BsEmojiSmile />
             </button>
           </div>

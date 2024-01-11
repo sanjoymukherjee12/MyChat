@@ -3,13 +3,13 @@ import myImg from "../../images/my.jpg";
 import "./Home.css";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { CiSearch } from "react-icons/ci";
-import datas from "../data/User.json";
+import UserData from "../data/UserData";
 import UserChat from "./UserChat";
 
 export const MyContext = createContext("");
 
 const Home = () => {
-  const [users, setUsers] = useState(datas.users);
+  const [users, setUsers] = useState(UserData);
   const [input, setInput] = useState("");
   const [clicked, setClicked] = useState();
   const [activeUser, setActiveUser] = useState(1);

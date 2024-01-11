@@ -130,10 +130,6 @@
   background-color: rgb(20, 254, 20);
 }
 
-.chat {
-  display: flex;
-}
-
 .chatBox {
   padding: 25px;
   overflow-y: scroll;
@@ -173,7 +169,8 @@
 .sidenav {
   position: absolute;
   width: 0;
-  top: 100px;
+  height: 76%;
+  top: 85px;
   right: 0px;
   bottom: 130px;
   overflow-x: hidden;
@@ -181,7 +178,11 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  padding-top: 10px;
   background-color: rgb(255, 255, 255);
+  border-left: 1px solid rgb(226, 224, 224);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 10px;
 }
 
 .media {
@@ -237,6 +238,51 @@
   visibility: hidden;
 }
 
+.nam1 span {
+  color: rgb(178, 178, 178);
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: relative;
+}
+.nam1 p {
+  font-size: 15px;
+  background-color: rgb(252 237 237);
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+.nam1 {
+  /* position: absolute; */
+  /* right: 0; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.line1 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  margin-left: 50%;
+}
+
+.line1 img {
+  height: 35px;
+  border-radius: 25px;
+}
+
+.op {
+  display: flex;
+  flex-direction: column;
+}
+
+.op span {
+  text-align: right;
+  margin-right: 50px;
+}
+
 @media (max-width: 1200px) {
   .dotDiv {
     visibility: visible;
@@ -264,18 +310,17 @@
     font-size: 80%;
   }
 
-    .chatting {
-        width: 90%;
-    }
+  .chatting {
+    width: 90%;
+  }
 }
 
-
-@media(max-width:500px){
-    .contain{
-        width: 95%;
-    }
-    .nav {
-        padding: 15px 10px;
-        font-size: 10px;
-      }
+@media (max-width: 500px) {
+  .contain {
+    width: 95%;
+  }
+  .nav {
+    padding: 15px 10px;
+    font-size: 10px;
+  }
 }
